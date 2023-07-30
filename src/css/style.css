@@ -1,0 +1,148 @@
+body{
+    background-color: #333333;
+    height: 100vh; 
+}
+
+.container{
+    font-family: Verdana, Times, Serif;
+    font-size: 14px;
+    background-color: #fff;
+    width: 960px;
+    margin: auto;
+}
+
+.cabecalho{
+    background: url(../images/fundo.jpg);
+    max-height: 200px; 
+    margin-top: 5px;  
+    display: flex;
+}
+
+.cabecalho img{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cabecalho h1{
+    color: lightyellow;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.cabecalho p{
+    font-family: gabriola, 'Times New Roman', Times, serif;
+    color: lightyellow;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 3px;
+}
+
+.menu{
+    background-color: #333333;
+    height: 70px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li{
+    background-color: rgb(2, 62, 106);
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu ul li:hover{
+    background-color: darkslategray;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: lightyellow; 
+}
+
+.area-principal{
+    width: 660px;
+    height: 900px;
+    margin: 20px;
+    position: relative;
+}
+
+.area-principal h1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.area-principal img{
+    padding: 1px;
+    border-top: 2px solid lightgray; 
+    border-left: 2px solid lightgray;
+    border-right:2px solid lightgray; 
+}
+
+.area-principal .imagem-lua-1{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.area-principal .subtitulo{
+    width: 336px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 2px solid lightgray; 
+    border-left: 2px solid lightgray;
+    border-right:2px solid lightgray;  
+}
+
+.area-principal .imagem-lua-2{
+    display: flex;
+    gap: 20px; 
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.area-principal .subtitulo-2{
+    float: right;
+    right: 431.5px;
+    width: 336px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 2px solid lightgray; 
+    border-left: 2px solid lightgray;
+    border-right:2px solid lightgray;  
+}
+
+.area-lateral{
+    width: 240px;
+    position: absolute; 
+    right: 160px;
+    top: 245px;
+}
+
+.area-lateral h1{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.area-lateral img{
+    margin-bottom: 50px;
+}
+
+.rodape{
+    background-color: #0f0d35;
+    height: 72px;
+    text-align: center;
+    padding-top: 15px;
+    color:  lightyellow;
+    font-size: 12px;
+}
